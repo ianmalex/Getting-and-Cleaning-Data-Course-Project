@@ -131,3 +131,5 @@ New Name | Original Name
 "fourier body body gyroscope jerk magnitude-std" |	fBodyBodyGyroJerkMag-std()
 "subject"	 |
 "activity"	 |
+
+A second data set was created by taking the mean of each of the observational variables above variables for each subject activity pair.
