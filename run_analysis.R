@@ -43,6 +43,5 @@ names(tidy) <- gsub("jerk", " jerk", names(tidy))
 names(tidy) <- gsub("\\()", "", names(tidy))
 
 ## Save a version with the mean for each subject and activity
-temp <- 
 tidymean <- aggregate(. ~ subject + activity, mean, data = tidy)
-write.csv(tidymean, "~/R Testing/Smarthphones/tidymeans.csv")
+write.table(tidymean, "~/R Testing/Smarthphones/tidymeans.csv", row.name=FALSE)
